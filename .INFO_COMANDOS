@@ -1,0 +1,113 @@
+El archivo "app.js" contiene toda la configuración de express.
+El archivo "server.js" inicia el servidor.
+
+## Modos de inicio:
+
+## NODEMON:
+
+- Iniciando con nodemon:
+  nodemon server.js -p 5000 -c(variable bandera cluster)
+
+## FOREVER:
+
+- Iniciando con forever:
+  forever start server.js -p 5000
+  forever start server.js -p 5001
+  forever start server.js -p 5002
+- Listar:
+  forever list
+- Cerrar:
+  forever stopall
+
+## PM2 (Fork):
+--Iniciar:
+pm2 start server.js --name="Server 1" --watch -- -p 8081
+pm2 start server.js --name="Server 2" --watch -- -p 8082 -c
+
+## PM2 (Cluster):
+--Iniciar:
+pm2 start server.js --name="Cluster" --watch -i max -- -p 8082
+--Finalizar:
+pm2 delete 0 1 2 3 4 5
+
+
+EJERCICIO NGINX:
+
+Consigna:
+Redirigir todas las consultas a /api/randoms a un cluster de servidores escuchando en el puerto 8081. El cluster será creado desde node utilizando el módulo nativo cluster.
+El resto de las consultas, redirigirlas a un servidor individual escuchando en el puerto 8080
+
+
+Resolución:
+pm2 start server.js --name="Server 1" --watch -- -p 8081
+pm2 start server.js --name="Server 2" --watch -- -p 8082 -c
+
+Archivo nginx.config:
+events {
+}
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+
+    upstream node_app {
+        server 127.0.0.1:8081;
+        server 127.0.0.1:8082;
+    }
+
+    server {
+        listen       8080;
+        server_name  nginx_node;
+        root         ../nodeServer/public;
+
+        location /{
+            proxy_pass http://node_app;
+        }
+	location /api/random/ {
+            proxy_pass http://127.0.0.1:8082;
+        }
+    }
+}
+
+Consigna:
+Luego, modificar la configuración para que todas las consultas a /api/randoms sean redirigidas a un cluster de servidores gestionado desde nginx, repartiéndolas equitativamente entre 4 instancias escuchando en los puertos 8082, 8083, 8084 y 8085 respectivamente.
+
+Resolución:
+pm2 start server.js --name="Server 1" --watch -- -p 8081
+pm2 start server.js --name="Server 2" --watch -- -p 8082
+pm2 start server.js --name="Server 3" --watch -- -p 8083
+pm2 start server.js --name="Server 4" --watch -- -p 8084
+pm2 start server.js --name="Server 5" --watch -- -p 8085
+
+Archivo nginx.config:
+events {
+}
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+
+    upstream node_app {
+        server 127.0.0.1:8081;
+    }
+
+   upstream random_app {
+   	    server 127.0.0.1:8082;
+        server 127.0.0.1:8083;
+        server 127.0.0.1:8084;
+        server 127.0.0.1:8085;
+   }
+    
+    server {
+        listen       8080;
+        server_name  nginx_node;
+        root         ../nodeServer/public;
+
+        location /{
+            proxy_pass http://node_app;
+        }
+	location /api/random/ {
+            proxy_pass http://random_app;
+        }
+    }
+}

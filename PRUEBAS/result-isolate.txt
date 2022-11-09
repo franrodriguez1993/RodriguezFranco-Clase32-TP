@@ -1,0 +1,1189 @@
+Statistical profiling result from isolate-artillery.log, (9440 ticks, 23 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+   6956   73.7%          /home/franco/.nvm/versions/node/v16.17.0/bin/node
+    142    1.5%          /usr/lib/x86_64-linux-gnu/libc-2.31.so
+     12    0.1%          /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28
+      6    0.1%          [vdso]
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+     59    0.6%    2.5%  LazyCompile: *parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+     48    0.5%    2.1%  LazyCompile: *wrap /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+     38    0.4%    1.6%  LazyCompile: *resolve node:path:1091:10
+     36    0.4%    1.5%  LazyCompile: *next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+     28    0.3%    1.2%  LazyCompile: *SourceNode_walk /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:221:53
+     23    0.2%    1.0%  LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:174:29
+     20    0.2%    0.9%  RegExp: ^(?:[^\x00]*?(?=(\{\{)))
+     19    0.2%    0.8%  LazyCompile: *anonymous /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+     18    0.2%    0.8%  LazyCompile: *step /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+     18    0.2%    0.8%  LazyCompile: *makeAbs /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/common.js:203:18
+     18    0.2%    0.8%  LazyCompile: *castChunk /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:52:19
+     13    0.1%    0.6%  LazyCompile: *normalizeString node:path:66:25
+     12    0.1%    0.5%  LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:167:47
+     10    0.1%    0.4%  LazyCompile: *SourceNode_add /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:172:51
+     10    0.1%    0.4%  LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:368:47
+      8    0.1%    0.3%  RegExp: (?:\r\n?|\n).*
+      8    0.1%    0.3%  LazyCompile: *extend /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/utils.js:28:16
+      8    0.1%    0.3%  LazyCompile: *__awaiter /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      8    0.1%    0.3%  LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      7    0.1%    0.3%  LazyCompile: *fulfilled /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      7    0.1%    0.3%  LazyCompile: *compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      6    0.1%    0.3%  LazyCompile: *replaceStack /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      6    0.1%    0.3%  LazyCompile: *emit node:events:460:44
+      6    0.1%    0.3%  LazyCompile: *deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+      6    0.1%    0.3%  LazyCompile: *__generator /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:27:58
+      6    0.1%    0.3%  LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      5    0.1%    0.2%  LazyCompile: *toString node:buffer:790:46
+      5    0.1%    0.2%  LazyCompile: *resolvePath /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      5    0.1%    0.2%  LazyCompile: *relative node:path:1190:11
+      5    0.1%    0.2%  LazyCompile: *processTicksAndRejections node:internal/process/task_queues:68:35
+      5    0.1%    0.2%  LazyCompile: *join node:path:1166:7
+      5    0.1%    0.2%  LazyCompile: *Program /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:113:28
+      5    0.1%    0.2%  LazyCompile: *PathExpression /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:289:42
+      5    0.1%    0.2%  LazyCompile: *Glob._process /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:295:36
+      5    0.1%    0.2%  Function: ^fulfilled /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      4    0.0%    0.2%  RegExp: ^(?:\{\{(~)?\s*else\b)
+      4    0.0%    0.2%  LazyCompile: *nextTick node:internal/process/task_queues:104:18
+      4    0.0%    0.2%  LazyCompile: *anonymous /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:549:49
+      4    0.0%    0.2%  LazyCompile: *WhitespaceControl.Program /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/whitespace-control.js:19:48
+      4    0.0%    0.2%  LazyCompile: *Readable.read node:internal/streams/readable:394:35
+      4    0.0%    0.2%  Function: ^writeHead node:_http_server:292:19
+      4    0.0%    0.2%  Function: ^noop node:internal/util/debuglog:47:14
+      3    0.0%    0.1%  RegExp: ^(?:\{\{(~)?\s*else\s*(~)?\}\})
+      3    0.0%    0.1%  RegExp: ^(?:\))
+      3    0.0%    0.1%  RegExp: ^(?:\()
+      3    0.0%    0.1%  RegExp: \r?\n\s*?$
+      3    0.0%    0.1%  LazyCompile: *ret /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/runtime.js:188:15
+      3    0.0%    0.1%  LazyCompile: *pushSource /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      3    0.0%    0.1%  LazyCompile: *pushContext /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:437:36
+      3    0.0%    0.1%  LazyCompile: *preparePath /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:63:21
+      3    0.0%    0.1%  LazyCompile: *parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/minimatch/minimatch.js:413:9
+      3    0.0%    0.1%  LazyCompile: *next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:177:16
+      3    0.0%    0.1%  LazyCompile: *invokePartialWrapper /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/runtime.js:70:32
+      3    0.0%    0.1%  LazyCompile: *SourceNode /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:35:20
+      3    0.0%    0.1%  LazyCompile: *Long.isLong /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/long.js:236:28
+      3    0.0%    0.1%  LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:181:44
+      3    0.0%    0.1%  Function: ^template /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/runtime.js:52:18
+      3    0.0%    0.1%  Function: ^processTicksAndRejections node:internal/process/task_queues:68:35
+      3    0.0%    0.1%  Function: ^processPromiseRejections node:internal/process/promises:211:34
+      3    0.0%    0.1%  Function: ^get node:_http_incoming:112:16
+      3    0.0%    0.1%  Function: ^deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+      3    0.0%    0.1%  Function: ^Readable.read node:internal/streams/readable:394:35
+      2    0.0%    0.1%  RegExp: ^\s*?\r?\n
+      2    0.0%    0.1%  RegExp: ^\[.*\]$
+      2    0.0%    0.1%  RegExp: ^[!#$%&'*+.^_`|~0-9A-Za-z-]+\/[!#$%&'*+.^_`|~0-9A-Za-z-]+$
+      2    0.0%    0.1%  RegExp: ^(?:false(?=([~}\s)])))
+      2    0.0%    0.1%  RegExp: ^(?:\}(~)?\}\})
+      2    0.0%    0.1%  RegExp: ^(?:\{\{(~)?\{)
+      2    0.0%    0.1%  RegExp: ^(?:\{\{(~)?\^)
+      2    0.0%    0.1%  RegExp: ^(?:\{\{(~)?#\*?)
+      2    0.0%    0.1%  RegExp: ^(?:\{\{(~)?#>)
+      2    0.0%    0.1%  RegExp: ^(?:\{\{(~)?![\s\S]*?\}\})
+      2    0.0%    0.1%  RegExp: ^(?:\s+)
+      2    0.0%    0.1%  RegExp: ^(?:\.(?=([=~}\s\/.)|])))
+      2    0.0%    0.1%  RegExp: ^(?:[^\x00]+)
+      2    0.0%    0.1%  RegExp: [^\t\x20-\x7e\x80-\xff]
+      2    0.0%    0.1%  RegExp: [ \t]+$
+      2    0.0%    0.1%  RegExp: ([ \t]+$)
+      2    0.0%    0.1%  LazyCompile: *yy.locInfo /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:42:25
+      2    0.0%    0.1%  LazyCompile: *wrapper /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/wrappy/wrappy.js:19:19
+      2    0.0%    0.1%  LazyCompile: *template /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/runtime.js:52:18
+      2    0.0%    0.1%  LazyCompile: *realpathSync node:fs:2460:22
+      2    0.0%    0.1%  LazyCompile: *readFile node:fs:382:18
+      2    0.0%    0.1%  LazyCompile: *quotedString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      2    0.0%    0.1%  LazyCompile: *opcode /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:347:26
+      2    0.0%    0.1%  LazyCompile: *isAbsolute node:path:1156:13
+      2    0.0%    0.1%  LazyCompile: *createNewLookupObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/internal/create-new-lookup-object.js:15:31
+      2    0.0%    0.1%  LazyCompile: *appendToBuffer /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:42:42
+      2    0.0%    0.1%  LazyCompile: *appendEscaped /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      2    0.0%    0.1%  LazyCompile: *accept /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:101:26
+      2    0.0%    0.1%  LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/runtime.js:360:47
+      2    0.0%    0.1%  Function: ^writevGeneric node:internal/stream_base_commons:122:23
+      2    0.0%    0.1%  Function: ^writeCommand /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:40:17
+      2    0.0%    0.1%  Function: ^validateString node:internal/validators:119:24
+      2    0.0%    0.1%  Function: ^toInteger node:buffer:195:19
+      2    0.0%    0.1%  Function: ^shouldSetCookie /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-session/index.js:464:29
+      2    0.0%    0.1%  Function: ^setupParams /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1034:36
+      2    0.0%    0.1%  Function: ^onwrite node:internal/streams/writable:427:17
+      2    0.0%    0.1%  Function: ^nextTick node:internal/process/task_queues:104:18
+      2    0.0%    0.1%  Function: ^next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:177:16
+      2    0.0%    0.1%  Function: ^mergeSource /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:267:36
+      2    0.0%    0.1%  Function: ^get node:internal/streams/duplex:97:8
+      2    0.0%    0.1%  Function: ^emit node:events:460:44
+      2    0.0%    0.1%  Function: ^destroyHooksExist node:internal/async_hooks:486:27
+      2    0.0%    0.1%  Function: ^createNewLookupObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/internal/create-new-lookup-object.js:15:31
+      2    0.0%    0.1%  Function: ^compression /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/compression/index.js:59:31
+      2    0.0%    0.1%  Function: ^compileFunction node:vm:316:25
+      2    0.0%    0.1%  Function: ^appendToBuffer /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:42:42
+      2    0.0%    0.1%  Function: ^append /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      2    0.0%    0.1%  Function: ^alignPool node:buffer:163:19
+      2    0.0%    0.1%  Function: ^afterWriteDispatched node:internal/stream_base_commons:155:30
+      2    0.0%    0.1%  Function: ^accept /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:101:26
+      2    0.0%    0.1%  Function: ^_implicitHeader node:_http_server:287:68
+      2    0.0%    0.1%  Function: ^_finish node:_http_server:216:52
+      2    0.0%    0.1%  Function: ^Module._findPath node:internal/modules/cjs/loader:505:28
+      2    0.0%    0.1%  Function: ^Hash node:internal/crypto/hash:62:14
+      2    0.0%    0.1%  Function: ^FastBuffer node:internal/buffer:958:14
+      2    0.0%    0.1%  Function: ^<anonymous> node:internal/validators:74:3
+      2    0.0%    0.1%  Function: ^<anonymous> node:_http_outgoing:577:45
+      2    0.0%    0.1%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:366:57
+      2    0.0%    0.1%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      2    0.0%    0.1%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      2    0.0%    0.1%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:208:81
+      2    0.0%    0.1%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:201:47
+      1    0.0%    0.0%  RegExp: ^\s*([^;\s]*)(?:;|\s|$)
+      1    0.0%    0.0%  RegExp: ^[\^_`a-zA-Z\-0-9!#$%&'*+.|~]+$
+      1    0.0%    0.0%  RegExp: ^(?:undefined(?=([~}\s)])))
+      1    0.0%    0.0%  RegExp: ^(?:true(?=([~}\s)])))
+      1    0.0%    0.0%  RegExp: ^(?:\}\}\}\})
+      1    0.0%    0.0%  RegExp: ^(?:\|)
+      1    0.0%    0.0%  RegExp: ^(?:\{\{\{\{)
+      1    0.0%    0.0%  RegExp: ^(?:\{\{(~)?\^\s*(~)?\}\})
+      1    0.0%    0.0%  RegExp: ^(?:\{\{(~)?\*?)
+      1    0.0%    0.0%  RegExp: ^(?:\{\{(~)?>)
+      1    0.0%    0.0%  RegExp: ^(?:\{\{(~)?&)
+      1    0.0%    0.0%  RegExp: ^(?:\{\{(~)?!--)
+      1    0.0%    0.0%  RegExp: ^(?:\.\.)
+      1    0.0%    0.0%  RegExp: ^(?:[\/.])
+      1    0.0%    0.0%  RegExp: ^(?:(~)?\}\})
+      1    0.0%    0.0%  RegExp: ^(?:([^\s!"#%-,\.\/;->@\[-\^`\{-~]+(?=([=~}\s\/.)|]))))
+      1    0.0%    0.0%  RegExp: ^(?:'(\\[']|[^'])*')
+      1    0.0%    0.0%  RegExp: ^(?:$)
+      1    0.0%    0.0%  RegExp: \/+
+      1    0.0%    0.0%  RegExp: ;\s*charset\s*=
+      1    0.0%    0.0%  RegExp: (^|\r?\n)\s*?$
+      1    0.0%    0.0%  LazyCompile: *validateNumber node:internal/validators:124:24
+      1    0.0%    0.0%  LazyCompile: *shift node:internal/fixed_queue:108:8
+      1    0.0%    0.0%  LazyCompile: *set /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/application.js:359:23
+      1    0.0%    0.0%  LazyCompile: *read node:internal/fs/read_file_context:85:7
+      1    0.0%    0.0%  LazyCompile: *pushAsyncContext node:internal/async_hooks:539:26
+      1    0.0%    0.0%  LazyCompile: *push /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:868:22
+      1    0.0%    0.0%  LazyCompile: *push /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:79:22
+      1    0.0%    0.0%  LazyCompile: *prepareProgram /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:185:24
+      1    0.0%    0.0%  LazyCompile: *handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+      1    0.0%    0.0%  LazyCompile: *getValidatedString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:650:28
+      1    0.0%    0.0%  LazyCompile: *getEncodingOps node:buffer:684:24
+      1    0.0%    0.0%  LazyCompile: *fastparse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/parseurl/index.js:95:20
+      1    0.0%    0.0%  LazyCompile: *extname node:path:1385:10
+      1    0.0%    0.0%  LazyCompile: *empty /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:97:24
+      1    0.0%    0.0%  LazyCompile: *classifySexpr /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:363:40
+      1    0.0%    0.0%  LazyCompile: *accept /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/visitor.js:57:26
+      1    0.0%    0.0%  LazyCompile: *_addListener node:events:541:22
+      1    0.0%    0.0%  LazyCompile: *SubExpression /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:236:40
+      1    0.0%    0.0%  LazyCompile: *SourceNode_prepend /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:197:59
+      1    0.0%    0.0%  LazyCompile: *Hash node:internal/crypto/hash:62:14
+      1    0.0%    0.0%  LazyCompile: *<anonymous> node:internal/fs/utils:683:42
+      1    0.0%    0.0%  LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:274:31
+      1    0.0%    0.0%  LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:85:24
+      1    0.0%    0.0%  LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1    0.0%    0.0%  Function: ^yy.locInfo /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:42:25
+      1    0.0%    0.0%  Function: ^writeOrBuffer node:internal/streams/writable:367:23
+      1    0.0%    0.0%  Function: ^writeHead /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/on-headers/index.js:28:29
+      1    0.0%    0.0%  Function: ^verb /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:30:18
+      1    0.0%    0.0%  Function: ^validateNumber node:internal/validators:124:24
+      1    0.0%    0.0%  Function: ^updateOutgoingData node:_http_server:582:28
+      1    0.0%    0.0%  Function: ^unenroll node:timers:78:18
+      1    0.0%    0.0%  Function: ^tryReadSync node:fs:438:21
+      1    0.0%    0.0%  Function: ^transformLiteralToPath /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:551:32
+      1    0.0%    0.0%  Function: ^subarray node:buffer:1123:46
+      1    0.0%    0.0%  Function: ^strategy.pass /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/passport/lib/middleware/authenticate.js:345:31
+      1    0.0%    0.0%  Function: ^store.generate /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-session/index.js:158:28
+      1    0.0%    0.0%  Function: ^simpleSexpr /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:264:36
+      1    0.0%    0.0%  Function: ^simpleId /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/ast.js:21:32
+      1    0.0%    0.0%  Function: ^shouldCompress /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/compression/index.js:254:25
+      1    0.0%    0.0%  Function: ^shift node:internal/fixed_queue:108:8
+      1    0.0%    0.0%  Function: ^setupIgnores /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/common.js:23:23
+      1    0.0%    0.0%  Function: ^setopts /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/common.js:48:18
+      1    0.0%    0.0%  Function: ^setWriteHeadHeaders /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/on-headers/index.js:105:30
+      1    0.0%    0.0%  Function: ^setStreamTimeout node:internal/stream_base_commons:237:26
+      1    0.0%    0.0%  Function: ^setCharset /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/utils.js:248:41
+      1    0.0%    0.0%  Function: ^set /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/application.js:359:23
+      1    0.0%    0.0%  Function: ^session /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-session/index.js:179:26
+      1    0.0%    0.0%  Function: ^serverUpdateHandler /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology.js:321:24
+      1    0.0%    0.0%  Function: ^serializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/serializer.js:260:25
+      1    0.0%    0.0%  Function: ^serializeNumber /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/serializer.js:44:25
+      1    0.0%    0.0%  Function: ^serializeInto /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/serializer.js:553:23
+      1    0.0%    0.0%  Function: ^resume_ node:internal/streams/readable:984:17
+      1    0.0%    0.0%  Function: ^resolveExports node:internal/modules/cjs/loader:483:24
+      1    0.0%    0.0%  Function: ^resetBuffer node:internal/streams/writable:202:21
+      1    0.0%    0.0%  Function: ^removeAt node:internal/priority_queue:93:11
+      1    0.0%    0.0%  Function: ^remove node:internal/linkedlist:16:16
+      1    0.0%    0.0%  Function: ^readdirCb /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:550:20
+      1    0.0%    0.0%  Function: ^readableAddChunk node:internal/streams/readable:236:26
+      1    0.0%    0.0%  Function: ^readPackageScope node:internal/modules/cjs/loader:332:26
+      1    0.0%    0.0%  Function: ^readFileSync node:fs:459:22
+      1    0.0%    0.0%  Function: ^readFile node:fs:382:18
+      1    0.0%    0.0%  Function: ^query /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/middleware/query.js:39:24
+      1    0.0%    0.0%  Function: ^qstring /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/content-type/index.js:200:18
+      1    0.0%    0.0%  Function: ^pushParams /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:398:34
+      1    0.0%    0.0%  Function: ^pushParam /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:404:32
+      1    0.0%    0.0%  Function: ^push node:internal/fixed_queue:99:7
+      1    0.0%    0.0%  Function: ^push /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:868:22
+      1    0.0%    0.0%  Function: ^processTimers node:internal/timers:487:25
+      1    0.0%    0.0%  Function: ^prepareProgram /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:185:24
+      1    0.0%    0.0%  Function: ^preparePath /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:63:21
+      1    0.0%    0.0%  Function: ^parseurl /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/parseurl/index.js:35:19
+      1    0.0%    0.0%  Function: ^parserOnIncoming node:_http_server:880:26
+      1    0.0%    0.0%  Function: ^parserOnHeadersComplete node:_http_common:77:33
+      1    0.0%    0.0%  Function: ^parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/minimatch/minimatch.js:413:9
+      1    0.0%    0.0%  Function: ^parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/content-type/index.js:106:16
+      1    0.0%    0.0%  Function: ^openSync node:fs:585:18
+      1    0.0%    0.0%  Function: ^ondata node:internal/streams/readable:752:18
+      1    0.0%    0.0%  Function: ^once /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/once/once.js:21:15
+      1    0.0%    0.0%  Function: ^onWriteComplete node:internal/stream_base_commons:80:25
+      1    0.0%    0.0%  Function: ^onResponseHeaders /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/compression/index.js:140:47
+      1    0.0%    0.0%  Function: ^onParseComplete node:internal/url:544:25
+      1    0.0%    0.0%  Function: ^onHeaders /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/on-headers/index.js:56:20
+      1    0.0%    0.0%  Function: ^now /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/utils.js:571:13
+      1    0.0%    0.0%  Function: ^next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/route.js:116:16
+      1    0.0%    0.0%  Function: ^module.exports /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/utils-merge/index.js:16:36
+      1    0.0%    0.0%  Function: ^merge /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:83:24
+      1    0.0%    0.0%  Function: ^memoryUsage node:internal/process/per_thread:169:23
+      1    0.0%    0.0%  Function: ^measureRoundTripTime /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/sdam/monitor.js:284:30
+      1    0.0%    0.0%  Function: ^matchKnownFields node:_http_incoming:276:26
+      1    0.0%    0.0%  Function: ^matchHeader node:_http_outgoing:537:21
+      1    0.0%    0.0%  Function: ^makeCallback node:fs:193:22
+      1    0.0%    0.0%  Function: ^lookupProperty /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/runtime.js:118:44
+      1    0.0%    0.0%  Function: ^isUint8Array node:internal/util/types:13:22
+      1    0.0%    0.0%  Function: ^isInline /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:956:30
+      1    0.0%    0.0%  Function: ^insert node:internal/timers:350:16
+      1    0.0%    0.0%  Function: ^initHooksExist node:internal/async_hooks:478:24
+      1    0.0%    0.0%  Function: ^inflight /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/inflight/inflight.js:7:19
+      1    0.0%    0.0%  Function: ^howMuchToRead node:internal/streams/readable:377:23
+      1    0.0%    0.0%  Function: ^header /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:777:29
+      1    0.0%    0.0%  Function: ^hb.template /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars.runtime.js:50:26
+      1    0.0%    0.0%  Function: ^handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:136:31
+      1    0.0%    0.0%  Function: ^go$readFile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/graceful-fs/graceful-fs.js:117:26
+      1    0.0%    0.0%  Function: ^getcookie /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-session/index.js:529:19
+      1    0.0%    0.0%  Function: ^getReadPreference /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/cmap/wire_protocol/shared.js:8:27
+      1    0.0%    0.0%  Function: ^getHighWaterMark node:internal/streams/state:19:26
+      1    0.0%    0.0%  Function: ^getEncodingPriority /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/negotiator/lib/encoding.js:98:29
+      1    0.0%    0.0%  Function: ^get node:internal/bootstrap/pre_execution:413:8
+      1    0.0%    0.0%  Function: ^get length /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/utils.js:726:15
+      1    0.0%    0.0%  Function: ^generate /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-session/index.js:363:22
+      1    0.0%    0.0%  Function: ^fromString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/utils.js:316:22
+      1    0.0%    0.0%  Function: ^fn node:internal/util:346:14
+      1    0.0%    0.0%  Function: ^finishMaybe node:internal/streams/writable:733:21
+      1    0.0%    0.0%  Function: ^etag /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/etag/index.js:70:15
+      1    0.0%    0.0%  Function: ^entitytag /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/etag/index.js:39:20
+      1    0.0%    0.0%  Function: ^end /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-session/index.js:250:27
+      1    0.0%    0.0%  Function: ^empty /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:97:24
+      1    0.0%    0.0%  Function: ^emitReadable_ node:internal/streams/readable:574:23
+      1    0.0%    0.0%  Function: ^compileInput /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1    0.0%    0.0%  Function: ^compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    0.0%    0.0%  Function: ^close node:internal/fs/read_file_context:112:8
+      1    0.0%    0.0%  Function: ^clearBuffer node:internal/streams/writable:531:21
+      1    0.0%    0.0%  Function: ^checkIsHttpToken node:_http_common:220:26
+      1    0.0%    0.0%  Function: ^checkAborted node:fs:360:22
+      1    0.0%    0.0%  Function: ^castChunk /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:52:19
+      1    0.0%    0.0%  Function: ^braceExpand /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/minimatch/minimatch.js:109:21
+      1    0.0%    0.0%  Function: ^blockParamIndex /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:461:44
+      1    0.0%    0.0%  Function: ^basename node:path:1306:11
+      1    0.0%    0.0%  Function: ^assertValidPattern /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/minimatch/minimatch.js:123:28
+      1    0.0%    0.0%  Function: ^ambiguousSexpr /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:248:42
+      1    0.0%    0.0%  Function: ^accept /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/visitor.js:57:26
+      1    0.0%    0.0%  Function: ^_write node:internal/streams/writable:285:16
+      1    0.0%    0.0%  Function: ^_unrefTimer node:net:441:52
+      1    0.0%    0.0%  Function: ^_storeHeader node:_http_outgoing:384:22
+      1    0.0%    0.0%  Function: ^_copyActual node:buffer:247:21
+      1    0.0%    0.0%  Function: ^_copy node:buffer:205:15
+      1    0.0%    0.0%  Function: ^_addListener node:events:541:22
+      1    0.0%    0.0%  Function: ^__awaiter /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      1    0.0%    0.0%  Function: ^TopologyDescription /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/sdam/topology_description.js:29:16
+      1    0.0%    0.0%  Function: ^Timeout.refresh node:internal/timers:210:37
+      1    0.0%    0.0%  Function: ^Stats node:internal/fs/utils:498:15
+      1    0.0%    0.0%  Function: ^SourceNode_walk /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:221:53
+      1    0.0%    0.0%  Function: ^SourceNode /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:35:20
+      1    0.0%    0.0%  Function: ^Socket._writeGeneric node:net:848:42
+      1    0.0%    0.0%  Function: ^Socket._read node:net:642:34
+      1    0.0%    0.0%  Function: ^ServerResponse node:_http_server:183:24
+      1    0.0%    0.0%  Function: ^Readable node:internal/streams/readable:181:18
+      1    0.0%    0.0%  Function: ^Program /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:113:28
+      1    0.0%    0.0%  Function: ^PartialStatement /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:175:46
+      1    0.0%    0.0%  Function: ^ObjectId.equals /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/objectid.js:179:42
+      1    0.0%    0.0%  Function: ^Module._nodeModulePaths node:internal/modules/cjs/loader:640:37
+      1    0.0%    0.0%  Function: ^Long.subtract /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/long.js:720:40
+      1    0.0%    0.0%  Function: ^Long.isLong /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/long.js:236:28
+      1    0.0%    0.0%  Function: ^Long.getHighBits /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/long.js:440:43
+      1    0.0%    0.0%  Function: ^Long.eq /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/long.js:436:34
+      1    0.0%    0.0%  Function: ^Long /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/long.js:59:18
+      1    0.0%    0.0%  Function: ^Glob._readdirError /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:581:41
+      1    0.0%    0.0%  Function: ^Glob._processReaddir /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:368:43
+      1    0.0%    0.0%  Function: ^Glob._process /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:295:36
+      1    0.0%    0.0%  Function: ^ExpressHandlebars.getTemplate /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:162:56
+      1    0.0%    0.0%  Function: ^ExpressHandlebars._getDir /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:327:52
+      1    0.0%    0.0%  Function: ^DTRACE_HTTP_SERVER_REQUEST node:internal/dtrace:8:32
+      1    0.0%    0.0%  Function: ^ContentType /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/content-type/index.js:219:22
+      1    0.0%    0.0%  Function: ^<anonymous> node:internal/validators:177:39
+      1    0.0%    0.0%  Function: ^<anonymous> node:internal/util:348:32
+      1    0.0%    0.0%  Function: ^<anonymous> node:internal/util:347:24
+      1    0.0%    0.0%  Function: ^<anonymous> node:internal/fs/utils:689:40
+      1    0.0%    0.0%  Function: ^<anonymous> node:internal/fs/utils:360:35
+      1    0.0%    0.0%  Function: ^<anonymous> node:_http_outgoing:571:44
+      1    0.0%    0.0%  Function: ^<anonymous> :1:20
+      1    0.0%    0.0%  Function: ^<anonymous> :1:1
+      1    0.0%    0.0%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/minimatch/minimatch.js:222:19
+      1    0.0%    0.0%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/runtime.js:360:47
+      1    0.0%    0.0%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:274:31
+      1    0.0%    0.0%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/graceful-fs/graceful-fs.js:118:50
+      1    0.0%    0.0%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:625:43
+      1    0.0%    0.0%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-session/index.js:598:43
+      1    0.0%    0.0%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:98:47
+      1    0.0%    0.0%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:329:57
+      1    0.0%    0.0%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1    0.0%    0.0%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:164:57
+      1    0.0%    0.0%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:107:67
+      1    0.0%    0.0%  Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:105:84
+
+ [C++]:
+   ticks  total  nonlib   name
+    815    8.6%   35.1%  epoll_pwait@@GLIBC_2.6
+    137    1.5%    5.9%  __write@@GLIBC_2.2.5
+     56    0.6%    2.4%  __pthread_cond_signal
+     48    0.5%    2.1%  fwrite@@GLIBC_2.2.5
+     43    0.5%    1.9%  __libc_read
+     37    0.4%    1.6%  __pthread_cond_wait
+     34    0.4%    1.5%  __read@@GLIBC_2.2.5
+     31    0.3%    1.3%  __libc_malloc@@GLIBC_2.2.5
+     24    0.3%    1.0%  __mprotect@@GLIBC_PRIVATE
+     22    0.2%    0.9%  __pthread_mutex_unlock_usercnt
+     20    0.2%    0.9%  _IO_file_xsputn@@GLIBC_2.2.5
+     15    0.2%    0.6%  memcpy@GLIBC_2.2.5
+     14    0.1%    0.6%  __lll_lock_wait
+     12    0.1%    0.5%  std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@@GLIBCXX_3.4.9
+     12    0.1%    0.5%  cfree@GLIBC_2.2.5
+     10    0.1%    0.4%  std::ostream::sentry::sentry(std::ostream&)@@GLIBCXX_3.4
+      7    0.1%    0.3%  std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const@@GLIBCXX_3.4
+      7    0.1%    0.3%  __GI___pthread_mutex_lock
+      5    0.1%    0.2%  __GI___pthread_rwlock_unlock
+      4    0.0%    0.2%  operator new(unsigned long)@@GLIBCXX_3.4
+      4    0.0%    0.2%  __libc_open
+      3    0.0%    0.1%  syscall@@GLIBC_2.2.5
+      3    0.0%    0.1%  std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const@@GLIBCXX_3.4
+      3    0.0%    0.1%  operator delete(void*)@@GLIBCXX_3.4
+      2    0.0%    0.1%  std::ostream::sentry::~sentry()@@GLIBCXX_3.4
+      2    0.0%    0.1%  std::ostream::operator<<(int)@@GLIBCXX_3.4
+      2    0.0%    0.1%  std::ostream& std::ostream::_M_insert<long>(long)@@GLIBCXX_3.4.9
+      2    0.0%    0.1%  std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
+      2    0.0%    0.1%  __pthread_rwlock_init
+      2    0.0%    0.1%  __libc_write
+      1    0.0%    0.0%  std::ostream::flush()@@GLIBCXX_3.4
+      1    0.0%    0.0%  std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const@@GLIBCXX_3.4.18
+      1    0.0%    0.0%  std::_Rb_tree_increment(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
+      1    0.0%    0.0%  operator new[](unsigned long)@@GLIBCXX_3.4
+      1    0.0%    0.0%  getrusage@@GLIBC_2.2.5
+      1    0.0%    0.0%  fgets@@GLIBC_2.2.5
+      1    0.0%    0.0%  epoll_ctl@@GLIBC_2.3.2
+      1    0.0%    0.0%  accept4@@GLIBC_2.10
+      1    0.0%    0.0%  __munmap@@GLIBC_PRIVATE
+      1    0.0%    0.0%  __madvise@@GLIBC_PRIVATE
+      1    0.0%    0.0%  __fcntl@@GLIBC_2.2.5
+      1    0.0%    0.0%  __GI___pthread_rwlock_wrlock
+      1    0.0%    0.0%  __GI___pthread_mutex_unlock
+      1    0.0%    0.0%  _IO_sputbackc@@GLIBC_2.2.5
+      1    0.0%    0.0%  _IO_file_underflow@@GLIBC_2.2.5
+      1    0.0%    0.0%  _IO_file_sync@@GLIBC_2.2.5
+      1    0.0%    0.0%  _IO_do_write@@GLIBC_2.2.5
+
+ [Summary]:
+   ticks  total  nonlib   name
+    906    9.6%   39.0%  JavaScript
+   1395   14.8%   60.0%  C++
+    391    4.1%   16.8%  GC
+   7116   75.4%          Shared libraries
+     23    0.2%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+     98   27.1%    1.0%  __write@@GLIBC_2.2.5
+     46   12.7%    0.5%  fwrite@@GLIBC_2.2.5
+     39   10.8%    0.4%  __pthread_cond_signal
+     34    9.4%    0.4%  __read@@GLIBC_2.2.5
+     19    5.3%    0.2%  __libc_malloc@@GLIBC_2.2.5
+     19    5.3%    0.2%  _IO_file_xsputn@@GLIBC_2.2.5
+     13    3.6%    0.1%  memcpy@GLIBC_2.2.5
+     12    3.3%    0.1%  std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@@GLIBCXX_3.4.9
+     12    3.3%    0.1%  __mprotect@@GLIBC_PRIVATE
+      9    2.5%    0.1%  std::ostream::sentry::sentry(std::ostream&)@@GLIBCXX_3.4
+      7    1.9%    0.1%  std::ostreambuf_iterator<char, std::char_traits<char> > std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::_M_insert_int<long>(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const@@GLIBCXX_3.4
+      7    1.9%    0.1%  __pthread_mutex_unlock_usercnt
+      6    1.7%    0.1%  cfree@GLIBC_2.2.5
+      4    1.1%    0.0%  __libc_open
+      4    1.1%    0.0%  __GI___pthread_rwlock_unlock
+      4    1.1%    0.0%  __GI___pthread_mutex_lock
+      3    0.8%    0.0%  syscall@@GLIBC_2.2.5
+      3    0.8%    0.0%  operator delete(void*)@@GLIBCXX_3.4
+      2    0.6%    0.0%  std::ostream::sentry::~sentry()@@GLIBCXX_3.4
+      2    0.6%    0.0%  std::ostream::operator<<(int)@@GLIBCXX_3.4
+      2    0.6%    0.0%  std::ostream& std::ostream::_M_insert<long>(long)@@GLIBCXX_3.4.9
+      2    0.6%    0.0%  std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
+      2    0.6%    0.0%  operator new(unsigned long)@@GLIBCXX_3.4
+      1    0.3%    0.0%  std::ostream::flush()@@GLIBCXX_3.4
+      1    0.3%    0.0%  std::num_put<char, std::ostreambuf_iterator<char, std::char_traits<char> > >::do_put(std::ostreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, char, long) const@@GLIBCXX_3.4
+      1    0.3%    0.0%  std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const@@GLIBCXX_3.4.18
+      1    0.3%    0.0%  std::_Rb_tree_increment(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
+      1    0.3%    0.0%  operator new[](unsigned long)@@GLIBCXX_3.4
+      1    0.3%    0.0%  fgets@@GLIBC_2.2.5
+      1    0.3%    0.0%  __fcntl@@GLIBC_2.2.5
+      1    0.3%    0.0%  __GI___pthread_mutex_unlock
+      1    0.3%    0.0%  _IO_sputbackc@@GLIBC_2.2.5
+      1    0.3%    0.0%  _IO_file_underflow@@GLIBC_2.2.5
+      1    0.3%    0.0%  _IO_file_sync@@GLIBC_2.2.5
+      1    0.3%    0.0%  _IO_do_write@@GLIBC_2.2.5
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   6956   73.7%  /home/franco/.nvm/versions/node/v16.17.0/bin/node
+   4007   57.6%    /home/franco/.nvm/versions/node/v16.17.0/bin/node
+    552   13.8%      Function: ^compileFunction node:vm:316:25
+    547   99.1%        Function: ^wrapSafe node:internal/modules/cjs/loader:1040:18
+    540   98.7%          Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+    528   97.8%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+     12    2.2%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      7    1.3%          LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1080:37
+      7  100.0%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1135:37
+    164    4.1%      /home/franco/.nvm/versions/node/v16.17.0/bin/node
+     15    9.1%        Function: ^FastBuffer node:internal/buffer:958:14
+     13   86.7%          Function: ^createUnsafeBuffer node:internal/buffer:1059:28
+     10   76.9%            Function: ^allocUnsafeSlow node:buffer:388:50
+      2   15.4%            Function: ^allocate node:buffer:403:18
+      1    7.7%            Function: ^createPool node:buffer:155:20
+      1    6.7%          Function: ^randomBytes node:internal/crypto/random:93:21
+      1  100.0%            Function: ^randomBytesSync /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/random-bytes/index.js:72:25
+      1    6.7%          Function: ^alloc node:buffer:365:30
+      1  100.0%            Function: ^serialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/bson.js:110:19
+      9    5.5%        Function: ^header /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:777:29
+      7   77.8%          Function: ^contentType /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:619:32
+      7  100.0%            Function: ^send /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:111:25
+      2   22.2%          Function: ^send /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:111:25
+      2  100.0%            Function: ^done /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:1033:27
+      6    3.7%        Function: ^readPackage node:internal/modules/cjs/loader:301:21
+      5   83.3%          Function: ^readPackageScope node:internal/modules/cjs/loader:332:26
+      3   60.0%            Function: ^trySelf node:internal/modules/cjs/loader:452:17
+      2   40.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1   16.7%          Function: ^resolveExports node:internal/modules/cjs/loader:483:24
+      1  100.0%            Function: ^Module._findPath node:internal/modules/cjs/loader:505:28
+      5    3.0%        Function: ^stat node:internal/modules/cjs/loader:151:14
+      3   60.0%          Function: ^tryFile node:internal/modules/cjs/loader:395:17
+      3  100.0%            Function: ^tryExtensions node:internal/modules/cjs/loader:411:23
+      2   40.0%          Function: ^Module._findPath node:internal/modules/cjs/loader:505:28
+      2  100.0%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:865:35
+      5    3.0%        Function: ^expressInit /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/middleware/init.js:29:30
+      3   60.0%          Function: ^handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+      3  100.0%            Function: ^trim_prefix /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:293:23
+      2   40.0%          LazyCompile: *handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+      2  100.0%            Function: ^trim_prefix /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:293:23
+      5    3.0%        Function: ^checkInvalidHeaderChar node:_http_common:231:32
+      5  100.0%          Function: ^<anonymous> node:_http_outgoing:577:45
+      5  100.0%            Function: ^setHeader node:_http_outgoing:601:57
+      4    2.4%        LazyCompile: *pushSource /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      3   75.0%          Function: ^appendEscaped /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      3  100.0%            LazyCompile: *compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   25.0%          Function: ^append /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      1  100.0%            LazyCompile: *compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      4    2.4%        LazyCompile: *compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      4  100.0%          Function: ^compileInput /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      4  100.0%            Function: ^ret /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      4    2.4%        LazyCompile: *appendEscaped /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      4  100.0%          LazyCompile: *compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      4  100.0%            LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      4    2.4%        LazyCompile: *PathExpression /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:289:42
+      3   75.0%          LazyCompile: *simpleSexpr /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:264:36
+      3  100.0%            Function: ^SubExpression /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:236:40
+      1   25.0%          LazyCompile: *accept /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:101:26
+      1  100.0%            Function: ^simpleSexpr /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:264:36
+      4    2.4%        Function: ^finish /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/common.js:122:17
+      4  100.0%          Function: ^Glob._finish /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:185:35
+      4  100.0%            Function: ^done /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:171:17
+      4    2.4%        Function: ^Module._findPath node:internal/modules/cjs/loader:505:28
+      3   75.0%          Function: ^Module._resolveFilename node:internal/modules/cjs/loader:865:35
+      3  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:771:24
+      1   25.0%          LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:865:35
+      1  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:771:24
+      3    1.8%        LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      3  100.0%          LazyCompile: *step /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      2   66.7%            LazyCompile: *fulfilled /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1   33.3%            LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      3    1.8%        Function: ^quotedString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      3  100.0%          Function: ^pushSource /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      2   66.7%            Function: ^compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1   33.3%            Function: ^append /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      3    1.8%        Function: ^Glob._processReaddir2 /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:375:44
+      3  100.0%          Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:370:43
+      3  100.0%            Function: ^RES /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/inflight/inflight.js:18:28
+      2    1.2%        LazyCompile: ~resolvePackageTargetString node:internal/modules/esm/resolve:499:36
+      2  100.0%          LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:567:30
+      2  100.0%            LazyCompile: ~resolvePackageTarget node:internal/modules/esm/resolve:567:30
+      2    1.2%        LazyCompile: ~next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+      2  100.0%          LazyCompile: ~lex /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:525:30
+      2  100.0%            LazyCompile: ~lex /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:295:25
+      2    1.2%        LazyCompile: ~Mime.lookup /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mime/mime.js:69:33
+      2  100.0%          LazyCompile: ~contentType /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:619:32
+      2  100.0%            LazyCompile: ~send /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:111:25
+      2    1.2%        LazyCompile: *quotedString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      2  100.0%          Function: ^pushSource /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1   50.0%            Function: ^appendEscaped /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1   50.0%            Function: ^append /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:394:26
+      2    1.2%        LazyCompile: *parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/minimatch/minimatch.js:413:9
+      2  100.0%          /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      2  100.0%            Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/minimatch/minimatch.js:222:19
+      2    1.2%        LazyCompile: *parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      2  100.0%          LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      2  100.0%            LazyCompile: *step /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      2    1.2%        Function: ^scopedId /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/ast.js:14:32
+      2  100.0%          Function: ^PathExpression /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:289:42
+      2  100.0%            LazyCompile: *accept /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:101:26
+      2    1.2%        Function: ^mergeSource /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:267:36
+      1   50.0%          LazyCompile: *compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            Function: ^compileInput /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1   50.0%          Function: ^createFunctionContext /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:216:56
+      1  100.0%            Function: ^compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      2    1.2%        Function: ^getOwn node:internal/bootstrap/loaders:187:16
+      2  100.0%          Function: ^syncExports node:internal/bootstrap/loaders:304:14
+      1   50.0%            LazyCompile: ~<anonymous> node:internal/bootstrap/loaders:290:15
+      1   50.0%            Function: ^<anonymous> node:internal/bootstrap/loaders:290:15
+      2    1.2%        Function: ^fromString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/utils.js:315:22
+      2  100.0%          Function: ^ns /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/utils.js:293:12
+      2  100.0%            Function: ^measureRoundTripTime /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/sdam/monitor.js:284:30
+      2    1.2%        Function: ^format /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/content-type/index.js:65:17
+      2  100.0%          Function: ^setCharset /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/utils.js:248:41
+      2  100.0%            Function: ^send /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:111:25
+      2    1.2%        Function: ^Module.load node:internal/modules/cjs/loader:992:33
+      2  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:771:24
+      2  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:1020:36
+      2    1.2%        Function: ^HostAddress /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/utils.js:880:16
+      2  100.0%          Function: ^fromString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/utils.js:931:22
+      2  100.0%            Function: ^get hostAddress /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/server_description.js:65:20
+    148    3.7%      Function: ^readSync node:fs:699:18
+    148  100.0%        Function: ^tryReadSync node:fs:438:21
+    148  100.0%          Function: ^readFileSync node:fs:459:22
+    135   91.2%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      8    5.4%            LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      3    2.0%            LazyCompile: ~Module._extensions..json node:internal/modules/cjs/loader:1185:39
+    116    2.9%      Function: ^memoryUsage node:internal/process/per_thread:169:23
+    116  100.0%        Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/routes/routes.js:131:36
+     83   71.6%          LazyCompile: *handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+     83  100.0%            Function: ^next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/route.js:116:16
+     33   28.4%          Function: ^handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+     33  100.0%            Function: ^next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/route.js:116:16
+    113    2.8%      Function: ^cpus node:os:133:14
+    112   99.1%        Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/routes/routes.js:131:36
+     75   67.0%          Function: ^handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+     75  100.0%            Function: ^next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/route.js:116:16
+     37   33.0%          LazyCompile: *handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+     37  100.0%            Function: ^next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/route.js:116:16
+     86    2.1%      Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+     66   76.7%        Function: ^nativeModuleRequire node:internal/bootstrap/loaders:349:29
+     12   18.2%          Function: ~<anonymous> node:crypto:1:1
+     12  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      8   12.1%          Function: ~<anonymous> node:http:1:1
+      8  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      7   10.6%          Function: ~<anonymous> node:tls:1:1
+      7  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      4    6.1%          Function: ~<anonymous> node:internal/cluster/primary:1:1
+      4  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      3    4.5%          Function: ~<anonymous> node:internal/modules/esm/load:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      3    4.5%          Function: ~<anonymous> node:internal/child_process:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      3    4.5%          Function: ~<anonymous> node:child_process:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      3    4.5%          Function: ~<anonymous> node:_http_client:1:1
+      3  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      2    3.0%          LazyCompile: ~lazyRequire node:internal/crypto/util:67:21
+      2  100.0%            LazyCompile: ~get node:crypto:294:8
+      2    3.0%          LazyCompile: ~get node:dns:415:8
+      2  100.0%            /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      2    3.0%          Function: ~<anonymous> node:internal/process/esm_loader:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      2    3.0%          Function: ~<anonymous> node:internal/crypto/hkdf:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      2    3.0%          Function: ~<anonymous> node:assert:1:1
+      2  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    1.5%          LazyCompile: ~lazyLoadStreams node:fs:2893:25
+      1  100.0%            LazyCompile: ~get ReadStream node:fs:3036:17
+      1    1.5%          Function: ~<anonymous> node:tty:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    1.5%          Function: ~<anonymous> node:internal/modules/esm/loader:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    1.5%          Function: ~<anonymous> node:internal/modules/esm/get_format:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    1.5%          Function: ~<anonymous> node:internal/fs/promises:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    1.5%          Function: ~<anonymous> node:internal/crypto/util:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    1.5%          Function: ~<anonymous> node:internal/crypto/pbkdf2:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    1.5%          Function: ~<anonymous> node:dns:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    1.5%          Function: ~<anonymous> node:cluster:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    1.5%          Function: ~<anonymous> node:_tls_wrap:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    1.5%          Function: ~<anonymous> node:_tls_common:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    1.5%          Function: ~<anonymous> node:_http_outgoing:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1    1.5%          Function: ~<anonymous> node:_http_common:1:1
+      1  100.0%            Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+     17   19.8%        Function: ^compileForPublicLoader node:internal/bootstrap/loaders:263:25
+     17  100.0%          Function: ^loadNativeModule node:internal/modules/cjs/helpers:44:26
+     17  100.0%            Function: ^Module._load node:internal/modules/cjs/loader:771:24
+      3    3.5%        LazyCompile: ~compileForPublicLoader node:internal/bootstrap/loaders:263:25
+      2   66.7%          Function: ^loadNativeModule node:internal/modules/cjs/helpers:44:26
+      1   50.0%            LazyCompile: ~Module._load node:internal/modules/cjs/loader:771:24
+      1   50.0%            Function: ^Module._load node:internal/modules/cjs/loader:771:24
+      1   33.3%          LazyCompile: ~loadNativeModule node:internal/modules/cjs/helpers:44:26
+      1  100.0%            LazyCompile: ~Module._load node:internal/modules/cjs/loader:771:24
+     82    2.0%      Function: ^writevGeneric node:internal/stream_base_commons:122:23
+     82  100.0%        Function: ^Socket._writeGeneric node:net:848:42
+     82  100.0%          Function: ^Socket._writev node:net:880:36
+     82  100.0%            Function: ^doWrite node:internal/streams/writable:400:17
+     74    1.8%      LazyCompile: *next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:478:32
+     73   98.6%        LazyCompile: *parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+     38   52.1%          LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+     38  100.0%            LazyCompile: *step /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+     35   47.9%          Function: ^parseWithoutProcessing /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+     35  100.0%            Function: ^parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      1    1.4%        Function: ^lex /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:525:30
+      1  100.0%          Function: ^lex /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:295:25
+      1  100.0%            Function: ^parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+     67    1.7%      LazyCompile: *compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+     41   61.2%        Function: ^compileInput /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+     41  100.0%          Function: ^ret /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+     24   58.5%            Function: ^invokePartial /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/runtime.js:298:23
+     17   41.5%            Function: ^ExpressHandlebars._renderTemplate /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+     26   38.8%        LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+     26  100.0%          LazyCompile: *step /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+     18   69.2%            LazyCompile: *fulfilled /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      6   23.1%            LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      2    7.7%            Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+     66    1.6%      Function: ^close node:internal/fs/read_file_context:112:8
+     66  100.0%        Function: ^readFileAfterRead node:internal/fs/read_file_context:25:27
+     57    1.4%      Function: ^readFileAfterOpen node:fs:319:27
+     49    1.2%      Function: ^initialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/passport/lib/middleware/initialize.js:51:29
+     27   55.1%        LazyCompile: *handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+     27  100.0%          Function: ^trim_prefix /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:293:23
+     27  100.0%            LazyCompile: *next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:177:16
+     15   30.6%        Function: ^handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+     15  100.0%          Function: ^trim_prefix /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:293:23
+     12   80.0%            LazyCompile: *next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:177:16
+      3   20.0%            Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:280:64
+      7   14.3%        LazyCompile: *trim_prefix /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:293:23
+      7  100.0%          LazyCompile: *next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:177:16
+      7  100.0%            Function: ^session /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-session/index.js:179:26
+     47    1.2%      LazyCompile: *SourceNode_walk /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:221:53
+     43   91.5%        LazyCompile: *SourceNode_walk /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:221:53
+     35   81.4%          LazyCompile: *SourceNode_walk /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:221:53
+     31   88.6%            LazyCompile: *SourceNode_walk /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:221:53
+      4   11.4%            Function: ^SourceNode_toString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:318:61
+      8   18.6%          Function: ^SourceNode_toString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:318:61
+      8  100.0%            /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      4    8.5%        Function: ^SourceNode_toString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:318:61
+      4  100.0%          /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      4  100.0%            LazyCompile: *compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+     45    1.1%      Function: ^read node:internal/fs/read_file_context:85:7
+     45  100.0%        Function: ^readFileAfterStat node:fs:335:27
+     44    1.1%      Function: ^slice node:buffer:599:12
+     19   43.2%        LazyCompile: *toString node:buffer:790:46
+     16   84.2%          Function: ^readFileAfterClose node:internal/fs/read_file_context:46:28
+      3   15.8%          Function: ^deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+      2   66.7%            Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:36:21
+      1   33.3%            Function: ^deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+     15   34.1%        LazyCompile: *deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+      8   53.3%          LazyCompile: *deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+      8  100.0%            Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:36:21
+      7   46.7%          Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:36:21
+      7  100.0%            Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/bson.js:161:21
+      9   20.5%        Function: ^toString node:buffer:790:46
+      5   55.6%          Function: ^readFileSync node:fs:459:22
+      5  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      4   44.4%          Function: ^deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+      3   75.0%            Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:36:21
+      1   25.0%            Function: ^deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+      1    2.3%        LazyCompile: *readFileAfterClose node:internal/fs/read_file_context:46:28
+     43    1.1%      Function: ^deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+     30   69.8%        Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:36:21
+     30  100.0%          Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/bson.js:161:21
+     18   60.0%            Function: ^parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/cmap/commands.js:426:10
+     10   33.3%            Function: ^parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/commands.js:426:10
+      1    3.3%            LazyCompile: ~parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/commands.js:222:10
+      1    3.3%            LazyCompile: ~parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/cmap/commands.js:222:10
+      9   20.9%        Function: ^deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+      8   88.9%          Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:36:21
+      8  100.0%            Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/bson.js:161:21
+      1   11.1%          Function: ^deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+      1  100.0%            Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:36:21
+      4    9.3%        LazyCompile: ~deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:36:21
+      3   75.0%          Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/bson.js:161:21
+      3  100.0%            LazyCompile: ~parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/commands.js:426:10
+      1   25.0%          LazyCompile: ~deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/bson.js:161:21
+      1  100.0%            LazyCompile: ~parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/cmap/commands.js:222:10
+
+    815    8.6%  epoll_pwait@@GLIBC_2.6
+
+    142    1.5%  /usr/lib/x86_64-linux-gnu/libc-2.31.so
+    110   77.5%    /home/franco/.nvm/versions/node/v16.17.0/bin/node
+     34   30.9%      /home/franco/.nvm/versions/node/v16.17.0/bin/node
+     12   35.3%        Function: ^FastBuffer node:internal/buffer:958:14
+     12  100.0%          Function: ^createUnsafeBuffer node:internal/buffer:1059:28
+      6   50.0%            Function: ^createPool node:buffer:155:20
+      6   50.0%            Function: ^allocUnsafeSlow node:buffer:388:50
+      2    5.9%        LazyCompile: *readFile node:fs:382:18
+      2  100.0%          Function: ^go$readFile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/graceful-fs/graceful-fs.js:117:26
+      2  100.0%            Function: ^readFile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/graceful-fs/graceful-fs.js:111:21
+      2    5.9%        LazyCompile: *quotedString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      1   50.0%          Function: ^quotedString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:998:38
+      1  100.0%            Function: ^setupParams /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:1034:36
+      1   50.0%          Function: ^pushSource /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1  100.0%            Function: ^appendEscaped /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      2    5.9%        Function: ^readPackage node:internal/modules/cjs/loader:301:21
+      2  100.0%          Function: ^readPackageScope node:internal/modules/cjs/loader:332:26
+      2  100.0%            Function: ^trySelf node:internal/modules/cjs/loader:452:17
+      2    5.9%        Function: ^prepareMustache /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:99:25
+      2  100.0%          LazyCompile: *anonymous /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+      2  100.0%            LazyCompile: *parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1    2.9%        LazyCompile: *pushSource /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1  100.0%          Function: ^appendEscaped /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:416:40
+      1  100.0%            LazyCompile: *compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    2.9%        LazyCompile: *parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1  100.0%          LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%            LazyCompile: *step /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1    2.9%        LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      1  100.0%          LazyCompile: *step /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1    2.9%        Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/index.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1    2.9%        Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/config/mongo.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1    2.9%        Function: ^stat node:internal/modules/cjs/loader:151:14
+      1  100.0%          Function: ^Module._findPath node:internal/modules/cjs/loader:505:28
+      1  100.0%            Function: ^Module._resolveFilename node:internal/modules/cjs/loader:865:35
+      1    2.9%        Function: ^serializeInto /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/serializer.js:553:23
+      1  100.0%          Function: ^serialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/bson.js:110:19
+      1  100.0%            Function: ^serializeBson /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/cmap/commands.js:379:18
+      1    2.9%        Function: ^quotedString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:118:38
+      1  100.0%          Function: ^pushSource /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:881:34
+      1  100.0%            Function: ^compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    2.9%        Function: ^normalize node:path:1127:12
+      1  100.0%          Function: ^join node:path:1166:7
+      1  100.0%            Function: ^makeAbs /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/common.js:203:18
+      1    2.9%        Function: ^databaseNamespace /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/utils.js:377:27
+      1  100.0%          Function: ^Msg /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/cmap/commands.js:317:16
+      1  100.0%            Function: ^command /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/cmap/connection.js:251:12
+      1    2.9%        Function: ^contentType /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:619:32
+      1  100.0%          Function: ^send /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:111:25
+      1  100.0%            Function: ^done /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:1033:27
+      1    2.9%        Function: ^compileFunction node:vm:316:25
+      1  100.0%          Function: ^wrapSafe node:internal/modules/cjs/loader:1040:18
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1    2.9%        Function: ^Module node:internal/modules/cjs/loader:172:16
+      1  100.0%          Function: ^Module._load node:internal/modules/cjs/loader:771:24
+      1  100.0%            Function: ^Module.require node:internal/modules/cjs/loader:1020:36
+      1    2.9%        Function: ^<anonymous> node:internal/fs/utils:360:35
+      1  100.0%          Function: ^<anonymous> node:internal/fs/utils:671:38
+      1  100.0%            Function: ^<anonymous> node:internal/fs/utils:683:42
+     10    9.1%      LazyCompile: *compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      5   50.0%        LazyCompile: *<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:227:47
+      5  100.0%          LazyCompile: *step /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      4   80.0%            LazyCompile: *fulfilled /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+      1   20.0%            Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      5   50.0%        Function: ^compileInput /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      5  100.0%          Function: ^ret /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      3   60.0%            Function: ^ExpressHandlebars._renderTemplate /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      2   40.0%            Function: ^invokePartial /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/runtime.js:298:23
+      4    3.6%      LazyCompile: ~alphasort /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/common.js:19:20
+      4  100.0%        /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      4  100.0%          LazyCompile: ~finish /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/common.js:122:17
+      4  100.0%            LazyCompile: ~Glob._finish /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:185:35
+      3    2.7%      Function: ^inflight /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/inflight/inflight.js:7:19
+      2   66.7%        LazyCompile: *wrapper /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/wrappy/wrappy.js:19:19
+      1   50.0%          LazyCompile: *Glob._process /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:295:36
+      1  100.0%            LazyCompile: *Glob._processGlobStar2 /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:631:45
+      1   50.0%          Function: ^Glob._readdir /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:525:36
+      1  100.0%            Function: ^Glob._processGlobStar /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:623:44
+      1   33.3%        Function: ^wrapper /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/wrappy/wrappy.js:19:19
+      1  100.0%          Function: ^Glob._readdir /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:525:36
+      1  100.0%            Function: ^Glob._processGlobStar /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:623:44
+      2    1.8%      Function: ^deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+      1   50.0%        Function: ^deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+      1  100.0%          Function: ^deserializeObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:65:27
+      1  100.0%            Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:36:21
+      1   50.0%        Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/deserializer.js:36:21
+      1  100.0%          Function: ^deserialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/bson.js:161:21
+      1  100.0%            Function: ^parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/commands.js:426:10
+      2    1.8%      Function: ^Module._load node:internal/modules/cjs/loader:771:24
+      2  100.0%        Function: ^Module.require node:internal/modules/cjs/loader:1020:36
+      2  100.0%          Function: ^require node:internal/modules/cjs/helpers:101:31
+      1   50.0%            Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/passport/lib/middleware/authenticate.js:1:1
+      1   50.0%            Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cursor/list_indexes_cursor.js:1:1
+      5    3.5%    LazyCompile: *cpus node:os:133:14
+      5  100.0%      Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/routes/routes.js:131:36
+      5  100.0%        LazyCompile: *handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+      5  100.0%          Function: ^next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/route.js:116:16
+      5  100.0%            Function: ^compression /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/compression/index.js:59:31
+
+    137    1.5%  __write@@GLIBC_2.2.5
+     98   71.5%    /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      9    9.2%      /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1   11.1%        LazyCompile: ~stringToPath /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/get-intrinsic/index.js:210:41
+      1  100.0%          LazyCompile: ~GetIntrinsic /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/get-intrinsic/index.js:253:39
+      1  100.0%            Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/call-bind/index.js:1:1
+      1   11.1%        LazyCompile: ~parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/content-type/index.js:106:16
+      1  100.0%          LazyCompile: ~setCharset /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/utils.js:248:41
+      1  100.0%            LazyCompile: ~send /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:111:25
+      1   11.1%        LazyCompile: ~compressible /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/compressible/index.js:41:23
+      1  100.0%          LazyCompile: ~shouldCompress /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/compression/index.js:254:25
+      1  100.0%            LazyCompile: ~onResponseHeaders /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/compression/index.js:140:47
+      1   11.1%        LazyCompile: ~Socket node:net:294:16
+      1  100.0%          LazyCompile: ~WriteStream node:tty:85:21
+      1  100.0%            LazyCompile: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:45:35
+      1   11.1%        LazyCompile: ~Glob._process /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:295:36
+      1  100.0%          LazyCompile: ~Glob._processGlobStar2 /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:631:45
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:625:43
+      1   11.1%        Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1   11.1%        Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/helpers/model/applyHooks.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1   11.1%        Function: ^parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1  100.0%          Function: ^parseWithoutProcessing /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      1  100.0%            Function: ^parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      1   11.1%        Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:167:47
+      1  100.0%          LazyCompile: *step /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            LazyCompile: *__awaiter /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      3    3.1%      LazyCompile: ~handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+      2   66.7%        LazyCompile: ~trim_prefix /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:293:23
+      2  100.0%          LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:280:64
+      2  100.0%            LazyCompile: ~process_params /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:338:47
+      1   33.3%        LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:280:64
+      1  100.0%          LazyCompile: ~process_params /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:338:47
+      1  100.0%            LazyCompile: ~next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:177:16
+      2    2.0%      LazyCompile: ~processTicksAndRejections node:internal/process/task_queues:68:35
+      2    2.0%      LazyCompile: ~connect node:_tls_wrap:1602:35
+      2  100.0%        LazyCompile: ~makeConnection /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:256:24
+      2  100.0%          LazyCompile: ~connect /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:30:17
+      1   50.0%            LazyCompile: ~measureRoundTripTime /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/monitor.js:288:30
+      1   50.0%            LazyCompile: ~checkServer /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/monitor.js:143:21
+      2    2.0%      Function: ^processTicksAndRejections node:internal/process/task_queues:68:35
+      1    1.0%      LazyCompile: ~wildcard node:tls:327:22
+      1  100.0%        /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1  100.0%          LazyCompile: ~checkServerIdentity node:tls:282:59
+      1  100.0%            LazyCompile: ~onConnectSecure node:_tls_wrap:1521:25
+      1    1.0%      LazyCompile: ~tryExtensions node:internal/modules/cjs/loader:411:23
+      1  100.0%        LazyCompile: ~Module._findPath node:internal/modules/cjs/loader:505:28
+      1  100.0%          LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:865:35
+      1  100.0%            LazyCompile: ~Module._load node:internal/modules/cjs/loader:771:24
+      1    1.0%      LazyCompile: ~toV node:_tls_common:66:13
+      1  100.0%        LazyCompile: ~SecureContext node:_tls_common:79:23
+      1  100.0%          LazyCompile: ~createSecureContext node:_tls_common:103:29
+      1  100.0%            LazyCompile: ~connect node:_tls_wrap:1602:35
+      1    1.0%      LazyCompile: ~setOption /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:406:19
+      1  100.0%        LazyCompile: ~parseOptions /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:204:22
+      1  100.0%          LazyCompile: ~MongoClient /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:63:16
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/connection.js:798:31
+      1    1.0%      LazyCompile: ~set /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/application.js:359:23
+      1  100.0%        LazyCompile: ~enabled /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/application.js:438:31
+      1  100.0%          LazyCompile: ~render /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/application.js:548:29
+      1  100.0%            LazyCompile: ~render /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/response.js:1016:29
+      1    1.0%      LazyCompile: ~session /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-session/index.js:179:26
+      1  100.0%        LazyCompile: ~handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          LazyCompile: ~trim_prefix /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:293:23
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:280:64
+      1    1.0%      LazyCompile: ~serverUpdateHandler /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/sdam/topology.js:319:24
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/sdam/topology.js:479:53
+      1  100.0%          Function: ^emit node:events:460:44
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/sdam/server.js:61:55
+      1    1.0%      LazyCompile: ~serializeInto /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/parser/serializer.js:553:23
+      1  100.0%        LazyCompile: ~serialize /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/bson.js:110:19
+      1  100.0%          LazyCompile: ~toBin /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/commands.js:82:10
+      1  100.0%            LazyCompile: ~writeCommand /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:40:17
+      1    1.0%      LazyCompile: ~resolveBSONOptions /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/bson.js:55:28
+      1  100.0%        LazyCompile: ~resolveOptions /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/utils.js:604:24
+      1  100.0%          LazyCompile: ~createIndex /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/collection.js:253:16
+      1  100.0%            LazyCompile: ~setAutoRemove /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/connect-mongo/build/main/lib/MongoStore.js:138:18
+      1    1.0%      LazyCompile: ~replaceStack /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1  100.0%        LazyCompile: ~resolvePath /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      1  100.0%          LazyCompile: ~lookupOnContext /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      1  100.0%            LazyCompile: ~compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    1.0%      LazyCompile: ~read /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/saslprep/lib/memory-code-points.js:15:14
+      1  100.0%        Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/saslprep/lib/memory-code-points.js:1:1
+      1  100.0%          Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%            Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1    1.0%      LazyCompile: ~push /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:868:22
+      1  100.0%        LazyCompile: ~replaceStack /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:892:38
+      1  100.0%          LazyCompile: ~resolvePath /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:492:36
+      1  100.0%            LazyCompile: ~lookupOnContext /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:448:44
+      1    1.0%      LazyCompile: ~processIncomingData /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:84:29
+      1  100.0%        LazyCompile: ~_write /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:31:11
+      1  100.0%          LazyCompile: ~writeOrBuffer node:internal/streams/writable:367:23
+      1  100.0%            LazyCompile: ~_write node:internal/streams/writable:285:16
+      1    1.0%      LazyCompile: ~prepareMustache /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/helpers.js:99:25
+      1  100.0%        LazyCompile: ~anonymous /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:12:42
+      1  100.0%          Function: ^parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1  100.0%            LazyCompile: ~parseWithoutProcessing /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      1    1.0%      LazyCompile: ~parseUrlencoded /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/whatwg-url/lib/urlencoded.js:10:25
+      1  100.0%        LazyCompile: ~parseUrlencodedString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/whatwg-url/lib/urlencoded.js:41:31
+      1  100.0%          LazyCompile: ~URLSearchParamsImpl /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/whatwg-url/lib/URLSearchParams-impl.js:5:14
+      1  100.0%            LazyCompile: ~exports.setup /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/whatwg-url/lib/URLSearchParams.js:62:17
+      1    1.0%      LazyCompile: ~parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/parser.js:269:30
+      1  100.0%        LazyCompile: ~parseWithoutProcessing /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:33:32
+      1  100.0%          LazyCompile: ~parse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/base.js:51:15
+      1  100.0%            LazyCompile: ~compileInput /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1    1.0%      LazyCompile: ~onParserExecuteCommon node:_http_server:719:31
+      1  100.0%        Function: ^onParserExecute node:_http_server:662:25
+      1    1.0%      LazyCompile: ~onParseComplete node:internal/url:544:25
+      1  100.0%        /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1  100.0%          LazyCompile: ~URL node:internal/url:632:14
+      1  100.0%            LazyCompile: ~URL node:internal/url:632:14
+      1    1.0%      LazyCompile: ~onMessage /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:156:14
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:60:44
+      1  100.0%          Function: ^emit node:events:460:44
+      1  100.0%            LazyCompile: ~processIncomingData /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/message_stream.js:84:29
+      1    1.0%      LazyCompile: ~normalizeString node:path:66:25
+      1  100.0%        LazyCompile: ~resolve node:path:1091:10
+      1  100.0%          LazyCompile: ~patchProcessObject node:internal/bootstrap/pre_execution:103:28
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution node:internal/bootstrap/pre_execution:29:36
+      1    1.0%      LazyCompile: ~nameFunc /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/http-errors/index.js:244:19
+      1  100.0%        LazyCompile: ~createClientErrorConstructor /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/http-errors/index.js:127:39
+      1  100.0%          LazyCompile: ~forEachCode /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/http-errors/index.js:259:38
+      1  100.0%            /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1    1.0%      LazyCompile: ~lazyrouter /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/application.js:144:37
+      1  100.0%        LazyCompile: ~use /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/application.js:194:23
+      1  100.0%          Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/app.js:1:1
+      1  100.0%            LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1080:37
+      1    1.0%      LazyCompile: ~join node:path:1166:7
+      1  100.0%        LazyCompile: ~resolve /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/view.js:146:42
+      1  100.0%          LazyCompile: ~lookup /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/view.js:104:40
+      1  100.0%            LazyCompile: ~View /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/view.js:52:14
+      1    1.0%      LazyCompile: ~glob /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:62:15
+      1  100.0%        LazyCompile: ~<anonymous> node:internal/util:347:24
+      1  100.0%          /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1  100.0%            LazyCompile: ~fn node:internal/util:346:14
+      1    1.0%      LazyCompile: ~getPathname /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:537:21
+      1  100.0%        LazyCompile: ~next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:177:16
+      1  100.0%          LazyCompile: ~handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:136:31
+      1  100.0%            LazyCompile: ~handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/application.js:165:29
+      1    1.0%      LazyCompile: ~get ReadStream node:fs:3036:17
+      1  100.0%        /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1  100.0%          Function: ^getOwn node:internal/bootstrap/loaders:187:16
+      1  100.0%            Function: ^syncExports node:internal/bootstrap/loaders:304:14
+      1    1.0%      LazyCompile: ~get /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/bson.js:20:76
+      1  100.0%        LazyCompile: ~get /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/index.js:39:76
+      1  100.0%          Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/drivers/node-mongodb-native/binary.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1    1.0%      LazyCompile: ~get /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/bson/lib/bson.js:22:74
+      1  100.0%        LazyCompile: ~get /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/bson.js:28:74
+      1  100.0%          LazyCompile: ~makeTopologyVersion /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/monitor.js:258:29
+      1  100.0%            LazyCompile: ~checkServer /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/monitor.js:143:21
+      1    1.0%      LazyCompile: ~fromObject node:buffer:500:20
+      1  100.0%        LazyCompile: ~from node:buffer:301:28
+      1  100.0%          LazyCompile: ~xor /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/auth/scram.js:208:13
+      1  100.0%            LazyCompile: ~continueScramConversation /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/auth/scram.js:93:35
+      1    1.0%      LazyCompile: ~findLongestRegisteredExtension node:internal/modules/cjs/loader:424:40
+      1  100.0%        LazyCompile: ~Module.load node:internal/modules/cjs/loader:992:33
+      1  100.0%          LazyCompile: ~Module._load node:internal/modules/cjs/loader:771:24
+      1  100.0%            LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
+      1    1.0%      LazyCompile: ~fastparse /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/parseurl/index.js:95:20
+      1  100.0%        LazyCompile: ~parseurl /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/parseurl/index.js:35:19
+      1  100.0%          LazyCompile: ~getPathname /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:537:21
+      1  100.0%            LazyCompile: ~next /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/index.js:177:16
+      1    1.0%      LazyCompile: ~exports.create /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/whatwg-url/lib/URLSearchParams.js:50:18
+      1  100.0%        LazyCompile: ~exports.createImpl /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/whatwg-url/lib/URLSearchParams.js:55:22
+      1  100.0%          LazyCompile: ~URLImpl /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/whatwg-url/lib/URL-impl.js:7:14
+      1  100.0%            LazyCompile: ~exports.setup /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/whatwg-url/lib/URL.js:49:17
+      1    1.0%      LazyCompile: ~enable /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mquery/node_modules/debug/src/common.js:162:17
+      1  100.0%        LazyCompile: ~setup /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mquery/node_modules/debug/src/common.js:7:15
+      1  100.0%          Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mquery/node_modules/debug/src/node.js:1:1
+      1  100.0%            Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1    1.0%      LazyCompile: ~emit node:events:460:44
+      1  100.0%        LazyCompile: ~_addListener node:events:541:22
+      1  100.0%          LazyCompile: ~addListener node:events:604:58
+      1  100.0%            LazyCompile: ~setupWarningHandler node:internal/bootstrap/pre_execution:168:29
+      1    1.0%      LazyCompile: ~done /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/model.js:1804:24
+      1  100.0%        LazyCompile: ~create /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/model.js:1850:18
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/model.js:1884:80
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/utils.js:472:18
+      1    1.0%      LazyCompile: ~defaultTriggerAsyncIdScope node:internal/async_hooks:455:36
+      1  100.0%        LazyCompile: ~emitLookup node:net:1133:46
+      1  100.0%          LazyCompile: ~onlookup node:dns:107:18
+      1    1.0%      LazyCompile: ~create /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/model.js:1850:18
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/model.js:1840:21
+      1  100.0%          Function: ^processTicksAndRejections node:internal/process/task_queues:68:35
+      1    1.0%      LazyCompile: ~continueScramConversation /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/auth/scram.js:93:35
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/auth/scram.js:85:80
+      1  100.0%          LazyCompile: ~onMessage /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:156:14
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:60:44
+      1    1.0%      LazyCompile: ~connect /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology.js:154:12
+      1  100.0%        LazyCompile: ~createTopology /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/operations/connect.js:44:24
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/operations/connect.js:32:67
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/connection_string.js:72:39
+      1    1.0%      LazyCompile: ~completeEndSession /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sessions.js:138:40
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sessions.js:133:52
+      1  100.0%          LazyCompile: ~maybePromise /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/utils.js:345:22
+      1  100.0%            LazyCompile: ~endSession /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sessions.js:129:15
+      1    1.0%      LazyCompile: ~compileForPublicLoader node:internal/bootstrap/loaders:263:25
+      1  100.0%        LazyCompile: ~loadNativeModule node:internal/modules/cjs/helpers:44:26
+      1  100.0%          LazyCompile: ~Module._load node:internal/modules/cjs/loader:771:24
+      1  100.0%            LazyCompile: ~Module.require node:internal/modules/cjs/loader:1020:36
+      1    1.0%      LazyCompile: ~compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%        LazyCompile: ~compileInput /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1  100.0%          LazyCompile: ~ret /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:515:15
+      1  100.0%            LazyCompile: ~ExpressHandlebars._renderTemplate /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:321:60
+      1    1.0%      LazyCompile: ~compare node:buffer:873:44
+      1  100.0%        Function: ^compareObjectId /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/utils.js:1019:25
+      1  100.0%          Function: ^updateRsFromPrimary /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/sdam/topology_description.js:257:29
+      1  100.0%            Function: ^update /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/sdam/topology_description.js:131:11
+      1    1.0%      LazyCompile: ~cloneObject /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/helpers/clone.js:119:21
+      1  100.0%        LazyCompile: ~clone /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/helpers/clone.js:29:15
+      1  100.0%          LazyCompile: ~SchemaTypeOptions /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/options/SchemaTypeOptions.js:18:14
+      1  100.0%            LazyCompile: ~SchemaObjectIdOptions /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/options/SchemaObjectIdOptions.js:18:1
+      1    1.0%      LazyCompile: ~clearBuffer node:internal/streams/writable:531:21
+      1  100.0%        LazyCompile: ~Writable.uncork node:internal/streams/writable:343:37
+      1  100.0%          LazyCompile: ~end node:_http_outgoing:912:45
+      1  100.0%            LazyCompile: ~end /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-session/index.js:250:27
+      1    1.0%      LazyCompile: ~checkInt node:internal/buffer:58:18
+      1  100.0%        Function: ^writeU_Int32LE node:internal/buffer:690:24
+      1  100.0%          Function: ^writeInt32LE node:internal/buffer:860:22
+      1  100.0%            LazyCompile: ~toBin /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/cmap/commands.js:345:10
+      1    1.0%      LazyCompile: ~callFinal node:internal/streams/writable:664:19
+      1  100.0%        LazyCompile: ~prefinish node:internal/streams/writable:721:19
+      1  100.0%          Function: ^finishMaybe node:internal/streams/writable:733:21
+      1  100.0%            LazyCompile: ~Writable.end node:internal/streams/writable:596:34
+      1    1.0%      LazyCompile: ~allocate node:buffer:403:18
+      1  100.0%        Function: ^allocUnsafe node:buffer:378:42
+      1  100.0%          Function: ^tryCreateBuffer node:fs:423:25
+      1  100.0%            Function: ^readFileSync node:fs:459:22
+      1    1.0%      LazyCompile: ~TopologyDescription /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology_description.js:29:16
+      1  100.0%        LazyCompile: ~update /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology_description.js:131:11
+      1  100.0%          LazyCompile: ~serverUpdateHandler /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology.js:321:24
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology.js:481:53
+      1    1.0%      LazyCompile: ~SourceNode /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:35:20
+      1  100.0%        LazyCompile: ~wrap /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+      1  100.0%          LazyCompile: ~castChunk /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:52:19
+      1  100.0%            LazyCompile: ~wrap /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/code-gen.js:101:22
+      1    1.0%      LazyCompile: ~SessionStrategy /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/passport/lib/strategies/session.js:14:25
+      1  100.0%        LazyCompile: ~Authenticator.init /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/passport/lib/authenticator.js:29:40
+      1  100.0%          LazyCompile: ~Authenticator /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/passport/lib/authenticator.js:13:23
+      1  100.0%            Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/passport/lib/index.js:1:1
+      1    1.0%      LazyCompile: ~ServerSession /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sessions.js:541:16
+      1  100.0%        LazyCompile: ~acquire /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sessions.js:597:12
+      1  100.0%          LazyCompile: ~get serverSession /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sessions.js:85:22
+      1  100.0%            LazyCompile: ~applySession /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sessions.js:661:22
+      1    1.0%      LazyCompile: ~Readable.pipe node:internal/streams/readable:654:35
+      1  100.0%        LazyCompile: ~Connection /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection.js:37:16
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:31:63
+      1  100.0%            LazyCompile: ~callback /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/connect.js:269:31
+      1    1.0%      LazyCompile: ~MongoClient /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/mongo_client.js:63:16
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/connection.js:798:31
+      1  100.0%          /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1  100.0%            LazyCompile: ~Connection.openUri /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/connection.js:680:40
+      1    1.0%      LazyCompile: ~Module._resolveFilename node:internal/modules/cjs/loader:865:35
+      1  100.0%        LazyCompile: ~Module._load node:internal/modules/cjs/loader:771:24
+      1  100.0%          LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
+      1  100.0%            Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    1.0%      LazyCompile: ~Module._load node:internal/modules/cjs/loader:771:24
+      1  100.0%        LazyCompile: ~executeUserEntryPoint node:internal/modules/run_main:74:31
+      1  100.0%          Function: ~<anonymous> node:internal/main/run_main_module:1:1
+      1    1.0%      LazyCompile: ~Minimatch /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/minimatch/minimatch.js:163:15
+      1  100.0%        LazyCompile: ~setopts /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/common.js:48:18
+      1  100.0%          LazyCompile: ~Glob /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:117:15
+      1  100.0%            LazyCompile: ~glob /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/glob/glob.js:62:15
+      1    1.0%      LazyCompile: ~ExpressHandlebars._resolveViewsPath /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:404:62
+      1  100.0%        Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%          LazyCompile: *step /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%            Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1    1.0%      LazyCompile: ~Duplex node:internal/streams/duplex:54:16
+      1  100.0%        LazyCompile: ~Socket node:net:294:16
+      1  100.0%          LazyCompile: ~WriteStream node:tty:85:21
+      1  100.0%            LazyCompile: ~createWritableStdioStream node:internal/bootstrap/switches/is_main_thread:45:35
+      1    1.0%      LazyCompile: ~Db /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/db.js:84:16
+      1  100.0%        LazyCompile: ~db /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/mongo_client.js:193:7
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/connect-mongo/build/main/lib/MongoStore.js:124:42
+      1  100.0%            /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1    1.0%      LazyCompile: ~ConnectionPool /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/cmap/connection_pool.js:56:16
+      1  100.0%        LazyCompile: ~Server /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/server.js:28:16
+      1  100.0%          LazyCompile: ~createAndConnectServer /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology.js:475:32
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/sdam/topology.js:173:57
+      1    1.0%      LazyCompile: ~CommandOperation /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/operations/command.js:14:16
+      1  100.0%        LazyCompile: ~CreateCollectionOperation /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/operations/create_collection.js:32:16
+      1  100.0%          LazyCompile: ~createCollection /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/node_modules/mongodb/lib/db.js:153:21
+      1  100.0%            LazyCompile: ~createCollection /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/connection.js:400:82
+      1    1.0%      LazyCompile: ~<anonymous> node:internal/validators:85:3
+      1  100.0%        LazyCompile: ~parseFileMode node:internal/validators:60:23
+      1  100.0%          LazyCompile: ~openSync node:fs:585:18
+      1  100.0%            LazyCompile: ~readFileSync node:fs:459:22
+      1    1.0%      LazyCompile: ~<anonymous> node:_http_outgoing:577:45
+      1  100.0%        LazyCompile: ~setHeader node:_http_outgoing:601:57
+      1  100.0%          LazyCompile: ~expressInit /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/middleware/init.js:29:30
+      1  100.0%            LazyCompile: ~handle /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express/lib/router/layer.js:86:49
+      1    1.0%      LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/model.js:1358:28
+      1  100.0%        /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1  100.0%          LazyCompile: ~init /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/model.js:1332:27
+      1  100.0%            LazyCompile: ~Mongoose._model /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/index.js:581:37
+      1    1.0%      LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/index.js:380:49
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/helpers/promiseOrCallback.js:40:22
+      1  100.0%          /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1  100.0%            LazyCompile: ~promiseOrCallback /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/helpers/promiseOrCallback.js:8:44
+      1    1.0%      LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/connection.js:798:31
+      1  100.0%        /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1  100.0%          LazyCompile: ~Connection.openUri /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/connection.js:680:40
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/index.js:380:49
+      1    1.0%      LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/cmap/connection_pool.js:168:26
+      1  100.0%        Function: ^processTicksAndRejections node:internal/process/task_queues:68:35
+      1    1.0%      LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:251:47
+      1  100.0%        LazyCompile: ~step /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:31:18
+      1  100.0%          LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1    1.0%      LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:249:57
+      1  100.0%        LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:20:46
+      1  100.0%          /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1  100.0%            LazyCompile: ~__awaiter /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:18:54
+      1    1.0%      LazyCompile: *SourceNode_walk /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:221:53
+      1  100.0%        Function: ^SourceNode_toString /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/source-map/lib/source-node.js:318:61
+      1  100.0%          /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1  100.0%            LazyCompile: *compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1    1.0%      Function: ~<anonymous> node:_http_client:1:1
+      1  100.0%        Function: ^compileForInternalLoader node:internal/bootstrap/loaders:316:27
+      1  100.0%          Function: ^nativeModuleRequire node:internal/bootstrap/loaders:349:29
+      1  100.0%            Function: ~<anonymous> node:http:1:1
+      1    1.0%      Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongoose/lib/types/objectid.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:992:33
+      1    1.0%      Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/helpers/each.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:992:33
+      1    1.0%      Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/visitor.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:992:33
+      1    1.0%      Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/connect-mongo/build/main/lib/MongoStore.js:1:1
+      1  100.0%        Function: ^Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%          Function: ^Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1  100.0%            Function: ^Module.load node:internal/modules/cjs/loader:992:33
+      1    1.0%      Function: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/app.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile node:internal/modules/cjs/loader:1080:37
+      1  100.0%          LazyCompile: ~Module._extensions..js node:internal/modules/cjs/loader:1135:37
+      1  100.0%            LazyCompile: ~Module.load node:internal/modules/cjs/loader:992:33
+      1    1.0%      Function: ^onceWrapper node:events:622:21
+      1  100.0%        Function: ^emit node:events:460:44
+      1  100.0%          LazyCompile: ~completeEndSession /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/sessions.js:138:40
+      1  100.0%            LazyCompile: ~<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/mongodb/lib/sessions.js:133:52
+      1    1.0%      Function: ^<anonymous> :1:1
+      1  100.0%        /home/franco/.nvm/versions/node/v16.17.0/bin/node
+      1  100.0%          LazyCompile: *compile /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/javascript-compiler.js:73:28
+      1  100.0%            Function: ^compileInput /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/handlebars/dist/cjs/handlebars/compiler/compiler.js:507:24
+      1    1.0%      Function: ^<anonymous> /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:30:40
+      1  100.0%        Function: ^fulfilled /home/franco/Documentos/sincromega/Programacion/CURSOS/CODERHOUSE/Backend/Entregables/Clase 32/node_modules/express-handlebars/dist/express-handlebars.js:21:27
+

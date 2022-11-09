@@ -1,0 +1,27 @@
+<section class="text-center container-sm d-flex flex-column align-items-center">
+
+
+
+  <h3 class="mt-5">Agregar nuevos productos</h3>
+  <form style="width: 500px;" action="/productos" method="post">
+    <div class="mb-3">
+      <label for="title" class="form-label">Nombre:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="title"
+        aria-describedby="emailHelp",
+        name="title"
+      />
+    <div class="mb-3">
+      <label for="price" class="form-label">Precio:</label>
+      <input type="number" class="form-control" id="price" name="price"/>
+    </div>
+        <div class="mb-3">
+      <label for="thumbnail" class="form-label">URL Imagen:</label>
+      <input type="text" class="form-control" id="thumbnail" name="thumbnail"/>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Agregar</button>
+  </form>
+</section>

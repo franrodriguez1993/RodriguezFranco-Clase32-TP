@@ -1,0 +1,30 @@
+<div class="container-sm text-center">
+  <h3 class="mt-4">Lista de productos</h3>
+  <table class="table my-5">
+
+      {{#if productos}}
+    <thead>
+      <tr class="table-primary">
+        <th scope="col">Nombre</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Imagen</th>
+      </tr>
+    </thead>
+    <tbody>
+          {{#each productos }}
+        {{>rowProductos item=this}}
+      {{/each}}
+      {{else}}
+
+      <div class="alert alert-warning mt-4">
+  ¡No hay productos agregados!
+</div>
+      
+      {{/if}}
+
+
+    
+    </tbody>
+  </table>
+
+</div>
