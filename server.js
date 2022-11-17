@@ -5,7 +5,7 @@ const { app } = require("./app");
 
 let options = { alias: { p: "puerto", c: "cluster" } };
 let args = minimist(process.argv.slice(2), options);
-const PORT = args.p || 8080;
+const PORT = process.env.PORT || 8080;
 const CLUSTER = args.c;
 //Número de nucleos:
 const CPU_CORES = os.cpus().length;

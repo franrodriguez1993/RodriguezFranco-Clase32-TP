@@ -1,0 +1,6 @@
+[2022-11-10T09:12:50.187] [INFO] default - Método GET: ruta "/"
+[2022-11-10T09:12:50.600] [WARN] default - Ruta /favicon.ico no existe.
+[2022-11-10T09:13:00.152] [INFO] default - Método GET: ruta "/productos"
+[2022-11-10T09:13:00.421] [WARN] default - Ruta /favicon.ico no existe.
+[2022-11-10T09:13:05.839] [INFO] default - Método GET: ruta "/info"
+[2022-11-10T09:13:06.070] [WARN] default - Ruta /favicon.ico no existe.
